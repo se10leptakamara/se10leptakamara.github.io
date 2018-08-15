@@ -1,0 +1,20 @@
+{
+    "name": "EX Map Thessaloniki",
+    "short_name": "EX Map Thessaloniki",
+    "icons": [
+        {
+            "src": "https://se10leptakamara.github.io/exmap/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://se10leptakamara.github.io/exmap/icons/android-chrome-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#343a40",
+    "background_color": "#343a40",
+    "start_url": "https://se10leptakamara.github.io/exmap/",
+    "display": "standalone"
+}
