@@ -10,14 +10,14 @@ a:hover {
 }
 
 /* Custom default button */
-.btn-secondary,
+/*.btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
   color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
+  text-shadow: none;
   background-color: #fff;
   border: .05rem solid #fff;
-}
+}*/
 
 
 /*
@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #222222;
 }
 
 body {
@@ -103,8 +103,63 @@ body {
  */
 .mastfoot {
   color: rgba(255, 255, 255, .5);
+  font-size:75%;
 }
 
 .btn {
     white-space: normal;
+}
+
+/* Custom Discord Button Start */
+.btn-discord { 
+  color: #FFFFFF; 
+  background-color: #7289DA; 
+  border-color: #6077C9; 
+} 
+ 
+.btn-discord:hover, 
+.btn-discord:focus, 
+.btn-discord:active, 
+.btn-discord.active, 
+.open .dropdown-toggle.btn-discord { 
+  color: #FFFFFF; 
+  background-color: #586BAD; 
+  border-color: #6077C9; 
+} 
+ 
+.btn-discord:active, 
+.btn-discord.active, 
+.open .dropdown-toggle.btn-discord { 
+  background-image: none; 
+} 
+ 
+.btn-discord.disabled, 
+.btn-discord[disabled], 
+fieldset[disabled] .btn-discord, 
+.btn-discord.disabled:hover, 
+.btn-discord[disabled]:hover, 
+fieldset[disabled] .btn-discord:hover, 
+.btn-discord.disabled:focus, 
+.btn-discord[disabled]:focus, 
+fieldset[disabled] .btn-discord:focus, 
+.btn-discord.disabled:active, 
+.btn-discord[disabled]:active, 
+fieldset[disabled] .btn-discord:active, 
+.btn-discord.disabled.active, 
+.btn-discord[disabled].active, 
+fieldset[disabled] .btn-discord.active { 
+  background-color: #7289DA; 
+  border-color: #6077C9; 
+} 
+ 
+.btn-discord .badge { 
+  color: #7289DA; 
+  background-color: #FFFFFF; 
+}
+/* Custom Discord Button End */
+
+@media screen and (max-width: 500px) {
+  .cover-heading {
+    font-size:90%;
+  }
 }
